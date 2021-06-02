@@ -7,4 +7,4 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
     curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh && \
     bash nodesource_setup.sh && \
     apt install nodejs && \
-    npm i -g serverless
+    npm i -g serverless@^2.41.1
